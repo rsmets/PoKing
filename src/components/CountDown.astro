@@ -7,7 +7,7 @@
 <!-- Include the countdown timer script -->
 <script>
   // Define the target date and time
-const targetDate = new Date("April 15, 2024 19:00:00 UTC").getTime();
+const targetDate = new Date("April 24, 2024 19:00:00 UTC").getTime();
 
   // Get the countdown element
   const countdownElement: any = document.getElementById('countdown');
@@ -27,7 +27,14 @@ const targetDate = new Date("April 15, 2024 19:00:00 UTC").getTime();
     const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     // Update the countdown element
-    countdownElement.innerText = `🚀🐸🧑‍🚀 in T-minus: ${days}d ${hours}h ${minutes}m ${seconds}s`;
+    countdownElement.innerText = `🥔🚀 PoKing going worldwide in T-minus: ${days}d ${hours}h ${minutes}m ${seconds}s`;
+
+    // Add styles to the countdown element
+    // countdownElement.style.backgroundColor = 'yellow';
+    // countdownElement.style.padding = '10px';
+    // countdownElement.style.border = '2px solid black';
+    // countdownElement.style.color = 'black';
+    // countdownElement.style.fontWeight = 'bold';
 
     // If the countdown is over, display a message
     if (distance < 0) {
