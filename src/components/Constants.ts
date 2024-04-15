@@ -14,7 +14,7 @@ export const urls = {
   raydiumbuy: `https://raydium.io/swap/?inputCurrency=sol&outputCurrency=${addresses.token}&outputSymbol=AF&fixed=in`,
   githuborg: "https://github.com/orgs/JT-Labs-LLC",
   telegram: "https://t.me/+YLRmwGGZMBYyNzEx",
-  twitter: "https://twitter.com/AstroFrog_AF",
+  twitter: "https://twitter.com/PoKing_AF",
   jupiter: `https://t0.jup.ag/swap/AF_${addresses.token}-SOL`,
   explorer: `https://solana.fm/address/${addresses.token}`,
   rugcheck: `https://rugcheck.xyz/tokens/${addresses.token}`,
