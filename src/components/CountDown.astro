@@ -24,19 +24,19 @@ const targetDate = new Date("April 24, 2024 19:00:00 UTC").getTime();
     const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     // Update the countdown element
-    countdownElement.innerText = `🥔🚀 PoKing going worldwide in: ${days}d ${hours}h ${minutes}m ${seconds}s`;
+    countdownElement.innerText = `🥔🚀 Presale ends in: ${days}d ${hours}h ${minutes}m ${seconds}s`;
 
     // Add styles to the countdown element
-    // countdownElement.style.backgroundColor = 'yellow';
-    // countdownElement.style.padding = '10px';
-    // countdownElement.style.border = '2px solid black';
-    // countdownElement.style.color = 'black';
-    // countdownElement.style.fontWeight = 'bold';
+    countdownElement.style.color = '#050400'; // Reddish/orange color
+    countdownElement.style.textShadow = '0 0 3px #ff4500, 0 0 6px #f3a406'; // Reduced glow effect
+    countdownElement.style.fontFamily = 'Impact, Charcoal, "open-sans"';
+    countdownElement.style.fontSize = '1.5em';
 
     // If the countdown is over, display a message
     if (distance < 0) {
       clearInterval(0);
-      countdownElement.innerText = "LAUNCHED!🚀🐸🧑‍🚀";
+      countdownElement.innerText = "LAUNCHED!🚀🥔";
+      // countdownElement.style.textShadow = 'none';
     }
   }, 1000);
 </script>
