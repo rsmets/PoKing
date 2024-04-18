@@ -12,7 +12,7 @@ import Hero from '../components/Hero.astro';
 import Icon from '../components/Icon.astro';
 import Pill from '../components/Pill.astro';
 import PortfolioPreview from '../components/PortfolioPreview.astro';
-import { urls } from '../components/Constants'
+import { addresses, urls } from '../components/Constants'
 
 // Page section components
 import ContactCTA from '../components/ContactCTA.astro';
@@ -47,11 +47,11 @@ const projects = (await getCollection('hall-of-fame'))
 
 					<a href={urls.dexscreener}><img
 						alt="PoKing smiling in a red plaid shirt and tortoise shell glasses"
-						src="/assets/pking/icon.jpg"
+						src="/assets/pking/icon.gif"
 					/></a>
 				</>
 			</header>
-
+			<div style="text-align: center;"><a href={urls.birdeye}>CA: {addresses.token}</a></div>
 			<Skills />
 		</div>
 
