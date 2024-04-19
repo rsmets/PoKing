@@ -4,7 +4,7 @@
  * Addresses, URLs, etc.
  */
 export const addresses = {
-  token: "7DFxbvFxRdga7FrqhkehpXeeaR6yCZF9oJnZhpxCXHfx",
+  token: "<coming_soon>",
 };
 
 export const urls = {
@@ -14,7 +14,7 @@ export const urls = {
   raydiumbuy: `https://raydium.io/swap/?inputCurrency=sol&outputCurrency=${addresses.token}&outputSymbol=AF&fixed=in`,
   githuborg: "https://github.com/orgs/JT-Labs-LLC",
   telegram: "https://t.me/pokingcoin",
-  twitter: "https://twitter.com/PoKing_AF",
+  twitter: "https://twitter.com/POKINGsolana",
   jupiter: `https://t0.jup.ag/swap/AF_${addresses.token}-SOL`,
   explorer: `https://solana.fm/address/${addresses.token}`,
   rugcheck: `https://rugcheck.xyz/tokens/${addresses.token}`,
