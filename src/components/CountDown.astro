@@ -4,7 +4,7 @@
 <!-- Include the countdown timer script -->
 <script>
   // Define the target date and time
-const targetDate = new Date("April 24, 2024 19:00:00 UTC").getTime();
+const targetDate = new Date("April 20, 2024 19:00:00 UTC").getTime();
 
   // Get the countdown element
   const countdownElement: any = document.getElementById('countdown');
@@ -24,7 +24,7 @@ const targetDate = new Date("April 24, 2024 19:00:00 UTC").getTime();
     const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     // Update the countdown element
-    countdownElement.innerText = `🥔🚀 Presale ends in: ${days}d ${hours}h ${minutes}m ${seconds}s`;
+    countdownElement.innerText = `🥔🚀 Presale starts in: ${days}d ${hours}h ${minutes}m ${seconds}s`;
 
     // Add styles to the countdown element
     countdownElement.style.color = '#050400'; // Reddish/orange color
