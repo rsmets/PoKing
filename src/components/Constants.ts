@@ -18,5 +18,6 @@ export const urls = {
   jupiter: `https://t0.jup.ag/swap/AF_${addresses.token}-SOL`,
   explorer: `https://solana.fm/address/${addresses.token}`,
   rugcheck: `https://rugcheck.xyz/tokens/${addresses.token}`,
-  pinksale: `https://www.pinksale.finance/solana/launchpad/${addresses.token}`,
+  launchpad:
+    "https://solanapad.io/launchpad-list/4cHPf3qBopHrcCYnGivwEgJP77vEEKdyLeJtbJ5jFrY7",
 };
