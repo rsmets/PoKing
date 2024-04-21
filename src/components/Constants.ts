@@ -4,7 +4,7 @@
  * Addresses, URLs, etc.
  */
 export const addresses = {
-  token: "<coming_soon>",
+  token: "FzWSfb8dxbuaeuCfS9grS6r5ZwfQ7ukVCH3UBnbbRrrZ",
 };
 
 export const urls = {
